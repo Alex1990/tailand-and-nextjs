@@ -20,17 +20,17 @@ export default function Home() {
               <ul className="flex items-center">
                 <li>
                   <Link href="/">
-                    <a className="block px-6 py-4">Home</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Home</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/pricing">
-                    <a className="block px-6 py-4">Pricing</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Pricing</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/download">
-                    <a className="block px-6 py-4">Download</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Download</a>
                   </Link>
                 </li>
               </ul>
@@ -48,8 +48,8 @@ export default function Home() {
         <h2 className="my-4 text-4xl text-center">XProject</h2>
         <p className="my-2 text-lg text-center text-gray-500">A demo of TailwindCSS and Next.js App</p>
         <div className="my-8 flex justify-center">
-          <button className="mx-4 px-8 py-3 text-xl border border-black border-solid rounded">Download</button>
-          <button className="mx-4 px-8 py-3 text-xl bg-black text-white border border-black border-solid rounded">Buy Now</button>
+          <button className="mx-4 px-8 py-3 text-xl border border-black border-solid rounded hover:bg-gray-100">Download</button>
+          <button className="mx-4 px-8 py-3 text-xl bg-black text-white border border-black border-solid rounded hover:bg-gray-700">Buy Now</button>
         </div>
       </div>
       <div className="container mx-auto px-4 max-w-screen-xl flex flex-col">
@@ -121,37 +121,37 @@ export default function Home() {
               <ul className="text-gray-500">
                 <li className="my-3">
                   <Link href="/">
-                    <a>Installation</a>
+                    <a className="hover:text-gray-700">Installation</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Release Notes</a>
+                    <a className="hover:text-gray-700">Release Notes</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Upgrade Guide</a>
+                    <a className="hover:text-gray-700">Upgrade Guide</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Using with Preprocessors</a>
+                    <a className="hover:text-gray-700">Using with Preprocessors</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Optimizing for Production</a>
+                    <a className="hover:text-gray-700">Optimizing for Production</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Browser Support</a>
+                    <a className="hover:text-gray-700">Browser Support</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>IntelliSense</a>
+                    <a className="hover:text-gray-700">IntelliSense</a>
                   </Link>
                 </li>
               </ul>
@@ -161,42 +161,42 @@ export default function Home() {
               <ul className="text-gray-500">
                 <li className="my-3">
                   <Link href="/">
-                    <a>Utility-First</a>
+                    <a className="hover:text-gray-700">Utility-First</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Responsive Design</a>
+                    <a className="hover:text-gray-700">Responsive Design</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Hover, Focus, & Other States</a>
+                    <a className="hover:text-gray-700">Hover, Focus, & Other States</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Dark Mode</a>
+                    <a className="hover:text-gray-700">Dark Mode</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Adding Base Styles</a>
+                    <a className="hover:text-gray-700">Adding Base Styles</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Extracting Components</a>
+                    <a className="hover:text-gray-700">Extracting Components</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Adding New Utilities</a>
+                    <a className="hover:text-gray-700">Adding New Utilities</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Functions & Directives</a>
+                    <a className="hover:text-gray-700">Functions & Directives</a>
                   </Link>
                 </li>
               </ul>
@@ -206,42 +206,42 @@ export default function Home() {
               <ul className="text-gray-500">
                 <li className="my-3">
                   <Link href="/">
-                    <a>Configuration</a>
+                    <a className="hover:text-gray-700">Configuration</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Theme Configuration</a>
+                    <a className="hover:text-gray-700">Theme Configuration</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Breakpoints</a>
+                    <a className="hover:text-gray-700">Breakpoints</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Customizing Colors</a>
+                    <a className="hover:text-gray-700">Customizing Colors</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Customizing Spacing</a>
+                    <a className="hover:text-gray-700">Customizing Spacing</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Configuring Variants</a>
+                    <a className="hover:text-gray-700">Configuring Variants</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Plugins</a>
+                    <a className="hover:text-gray-700">Plugins</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Presets</a>
+                    <a className="hover:text-gray-700">Presets</a>
                   </Link>
                 </li>
               </ul>
@@ -251,22 +251,22 @@ export default function Home() {
               <ul className="text-gray-500">
                 <li className="my-3">
                   <Link href="/">
-                    <a>Github</a>
+                    <a className="hover:text-gray-700">Github</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Discord</a>
+                    <a className="hover:text-gray-700">Discord</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Twitter</a>
+                    <a className="hover:text-gray-700">Twitter</a>
                   </Link>
                 </li>
                 <li className="my-3">
                   <Link href="/">
-                    <a>Youtube</a>
+                    <a className="hover:text-gray-700">Youtube</a>
                   </Link>
                 </li>
               </ul>
