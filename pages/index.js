@@ -69,7 +69,7 @@ export default function Home() {
       </header>
       <div className="my-4 py-8">
         <h2 className="my-4 text-4xl text-center dark:text-white">XProject</h2>
-        <p className="my-2 text-lg text-center text-gray-500 dark:text-gray-300">A demo of TailwindCSS and Next.js App</p>
+        <p className="my-2 text-lg text-center text-gray-500 dark:text-gray-300">A demo of TailwindCSS and Next.js</p>
         <div className="my-8 flex justify-center">
           <button className="mx-4 px-8 py-3 text-xl border border-black border-solid rounded hover:bg-gray-100 transition-colors dark:border-white dark:text-white dark:hover:bg-gray-900">Download</button>
           <button className="mx-4 px-8 py-3 text-xl bg-black text-white border border-black border-solid rounded hover:bg-gray-700 transition-colors dark:bg-white dark:border-white dark:text-black dark:hover:bg-gray-100">Buy Now</button>
