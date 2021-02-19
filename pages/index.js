@@ -20,17 +20,17 @@ export default function Home() {
               <ul className="flex items-center">
                 <li>
                   <Link href="/">
-                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Home</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black transition-colors">Home</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/pricing">
-                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Pricing</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black transition-colors">Pricing</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/download">
-                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black">Download</a>
+                    <a className="block px-6 py-4 border-b-2 border-transparent hover:border-black transition-colors">Download</a>
                   </Link>
                 </li>
               </ul>
@@ -48,8 +48,8 @@ export default function Home() {
         <h2 className="my-4 text-4xl text-center">XProject</h2>
         <p className="my-2 text-lg text-center text-gray-500">A demo of TailwindCSS and Next.js App</p>
         <div className="my-8 flex justify-center">
-          <button className="mx-4 px-8 py-3 text-xl border border-black border-solid rounded hover:bg-gray-100">Download</button>
-          <button className="mx-4 px-8 py-3 text-xl bg-black text-white border border-black border-solid rounded hover:bg-gray-700">Buy Now</button>
+          <button className="mx-4 px-8 py-3 text-xl border border-black border-solid rounded hover:bg-gray-100 transition-colors">Download</button>
+          <button className="mx-4 px-8 py-3 text-xl bg-black text-white border border-black border-solid rounded hover:bg-gray-700 transition-colors">Buy Now</button>
         </div>
       </div>
       <div className="container mx-auto px-4 max-w-screen-xl flex flex-col">
