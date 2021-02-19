@@ -1,7 +1,30 @@
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
+  const [theme, setTheme] = useState('light')
+  const onToggleTheme = e => {
+    if (e.target.checked) {
+      setTheme('dark')
+      localStorage.theme = 'dark'
+      document.documentElement.classList.add('dark')
+    } else {
+      setTheme('light')
+      localStorage.theme = 'light'
+      document.documentElement.classList.remove('dark')
+    }
+  }
+
+  useEffect(() => {
+    const mediaQueryList = window.matchMedia('(prefers-color-scheme: dark)')
+    const initialTheme = localStorage.theme || (mediaQueryList.matches ? 'dark' : 'light')
+    setTheme(initialTheme)
+    if (initialTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    }
+  })
+
   return (
     <div className="dark:bg-black">
       <Head>
@@ -35,12 +58,12 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-            {/* <div>
+            <div>
               <label>
-                <input type="checkbox"></input>
-                {' '}Dark Mode
+                <input type="checkbox" checked={theme === 'dark'} onChange={e => onToggleTheme(e)} />
+                {' '}{theme === 'light' ? '🌞' : '🌑'}
               </label>
-            </div> */}
+            </div>
           </div>
         </div>
       </header>
